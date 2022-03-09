@@ -1,6 +1,8 @@
 import React from 'react';
-import  ReactDOM  from 'react-dom';
+import ReactDOM from 'react-dom';
 import Header from './components/header';
+import './styles/style.css'
+
 
 const App = () => (
     // <React.Fragment>
@@ -8,14 +10,14 @@ const App = () => (
     //     <h2>Hello Kaleb</h2>
     // </React.Fragment>
     <>
-    <Header/>
+        <Header />
     </>
 
 )
 
 
 
- 
 
-ReactDOM.render(<App/>,document.getElementById('root'))
+
+ReactDOM.render(<App />, document.getElementById('root'))
 
